@@ -63,7 +63,7 @@
    </div>
 
    <div id="footer">
-       <p class="text-center">Copyright musyahya 2021</p>
+       <p class="text-center">Copyright Barudak Hitam</p>
    </div>
 </body>
 </html>
