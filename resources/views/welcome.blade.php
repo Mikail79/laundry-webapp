@@ -8,12 +8,37 @@
 
      <!-- Scripts -->
      <script src="{{ asset('js/app.js') }}" defer></script>
- 
+
      <!-- Styles -->
      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
      <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
 </head>
 <body>
+
+    <nav   class="navbar navbar-expand-lg fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Laundry Hitam</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#layanan">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#lokasi">Lokasi</a>
+              </li>
+            </ul>
+            <div>
+                <a class="navbar-brand text-white" href="{{ route('login') }}">Login</a>
+            </div>
+          </div>
+        </div>
+      </nav>
    <div id="hero">
     <div class="container">
         <div class="row align-items-center text-center">
@@ -27,7 +52,7 @@
         </div>
     </div>
    </div>
-
+   <section id="layanan">
    <div id="layanan">
        <div class="container">
            <div class="row text-center">
@@ -48,7 +73,9 @@
            </div>
        </div>
    </div>
+    </section>
 
+    <section id="lokasi">
    <div id="lokasi">
        <div class="container">
            <div class="row text-center">
@@ -56,11 +83,12 @@
                    <h1>Lokasi</h1>
                </div>
                <div class="col-md-12 my-4">
-                    <iframe scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1000&amp;height=500&amp;hl=en&amp;q=pahlawan%20semarang+(laravel%20laundry)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="1000" height="500" frameborder="0"></iframe> <a href='https://embedmap.org/'>embed google maps wordpress</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9e3090867dfff3abaadb27be772df8b260c59144'></script>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63408.797432942614!2d106.74847624863281!3d-6.640733399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c8b16ee07ef5%3A0x14ab253dd267de49!2sSMK%20Negeri%204%20Bogor%20(Nebrazka)!5e0!3m2!1sid!2sid!4v1694737071033!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
            </div>
        </div>
    </div>
+</section>
 
    <div id="footer">
        <p class="text-center">Copyright Barudak Hitam</p>
