@@ -27,8 +27,11 @@
                     </div>
                 </div>
             </div>
-
-            <table class="table table-striped">
+            
+            <div class="container">
+                <a href="/laundrylaporan" class="btn btn-outline-primary">PDF Reporting</a>
+            </div>
+            <table class="table table-striped mt-3">
                 <thead>
                     <tr>
                         <th width="10%" scope="col">No</th>
