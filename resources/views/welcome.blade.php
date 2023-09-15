@@ -44,7 +44,7 @@
     <div class="container">
         <div class="row align-items-center text-center">
             <div class="col-md-6">
-                <h1 class="display-4">Laravel Laundry</h1>
+                <h1 class="display-4">Laundry hitam</h1>
                 <p class="mb-5">Pelayanan yang bagus dan murah</p>
             </div>
             <div class="col-md-6">
