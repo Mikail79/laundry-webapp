@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Laundry</title>
 
      <!-- Scripts -->
      <script src="{{ asset('js/app.js') }}" defer></script>
@@ -12,6 +12,7 @@
      <!-- Styles -->
      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
      <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -61,8 +62,8 @@
                </div>
                @foreach ($layanan as $item)
                     <div class="col-lg-3 col-6">
-                        <div class="card shadow my-4">
-                            <div class="card-body">
+                        <div class="card shadow my-4" data-aos="fade-down" data-aos-delay="50">
+                            <div class="card-body" >
                                 <h2 class="mb-4">{{$item->nama}}</h2>
                                 <p>Durasi : {{$item->durasi}} jam</p>
                                 <p>Harga : Rp. {{number_format($item->harga)}}</p>
@@ -93,5 +94,10 @@
    <div id="footer">
        <p class="text-center">Copyright Barudak Hitam</p>
    </div>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
 </body>
 </html>
