@@ -77,20 +77,25 @@
     </section>
 
     <section id="lokasi">
-   <div id="lokasi">
-       <div class="container">
-           <div class="row text-center">
-               <div class="col-md-12">
-                   <h1>Lokasi</h1>
-               </div>
-               <div class="col-md-12 my-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63408.797432942614!2d106.74847624863281!3d-6.640733399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c8b16ee07ef5%3A0x14ab253dd267de49!2sSMK%20Negeri%204%20Bogor%20(Nebrazka)!5e0!3m2!1sid!2sid!4v1694737071033!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-               </div>
-           </div>
-       </div>
-   </div>
-</section>
-
+        <div id="lokasi">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1>Lokasi</h1>
+                    </div>
+                    <div class="col-md-12 my-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63408.797432942614!2d106.74847624863281!3d-6.640733399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c8b16ee07ef5%3A0x14ab253dd267de49!2sSMK%20Negeri%204%20Bogor%20(Nebrazka)!5e0!3m2!1sid!2sid!4v1694737071033!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-md-12">
+                        <!-- Add the WhatsApp logo with a link to your WhatsApp -->
+                        <a href="https://api.whatsapp.com/send?phone=NO-HP-KAMU" target="_blank" class="btn btn-success"><i class="fab fa-whatsapp"></i> Hubungi Kami di WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <br>
    <div id="footer">
        <p class="text-center">Copyright Barudak Hitam</p>
    </div>
@@ -99,5 +104,6 @@
    <script>
      AOS.init();
    </script>
+   <script src="https://kit.fontawesome.com/c83c05f22c.js" crossorigin="anonymous"></script>
 </body>
 </html>
