@@ -12,7 +12,6 @@
         <table class="table table-striped mt-4 table-hover">
             <thead>
                 <tr>
-                <th scope="col">No</th>
                 <th scope="col">Barang</th>
                 <th scope="col">Jumlah Barang</th>
                 <th scope="col">Jam & Tanggal</th>
@@ -21,7 +20,6 @@
             <tbody>
                 @foreach ($laundry as $row)
                     <tr>
-                    <th scope="row" width="15%">{{$row->id}}</th>
                     <td>{{$row->nama}}</td>
                     <td>{{$row->barang_id}}</td>
                     <td>{{$row->created_at}}</td>
