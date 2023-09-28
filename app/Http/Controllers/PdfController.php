@@ -13,7 +13,9 @@ class PdfController extends Controller
     
     public function laundrylaporan()
     {
-        $laundry = DB::table('detail_barang')->get();
+        $laundry = DB::table('detail_barang')
+        ->orderBy('id', 'desc')
+        ->get();
      
         $pdf = PDF::loadview('laundrylaporan',['laundry'=>$laundry]);
         return $pdf->download('laporanlaundry.pdf');
